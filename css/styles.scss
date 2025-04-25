@@ -10,7 +10,11 @@ $link-decoration: none;
 
 // 4. Include any default map overrides here
 $custom-colors: (
-	"farve": $cyan-400,
+        "farve": $cyan-400,
+        "wh": #F5EFE3,
+        "db": #2A1813,
+        "lb": #715b4c,
+        "gr": #86A687,
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
@@ -18,3 +22,8 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "bootstrapComponents";
 
 // 5. Du kan lave styling her...
+
+body {
+  background-color: #2A1813;
+}
+
